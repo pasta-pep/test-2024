@@ -1,0 +1,89 @@
+
+
+
+body {
+    background-color: #15839f;
+}
+
+.georges-perec {
+
+  font-family: "Lexend Exa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal; 
+  }
+
+.apartment-description{
+    /*
+    font-family: "Baskervville", serif;
+    font-weight:800;
+    font-style: italic;
+    font-size: 16px;
+    */
+  
+    font-family: Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
+}
+
+.grid-item{
+visibility: hideen;
+opacity: 0;
+transition: visibility 0s, opacity 0.3s ease;
+
+}
+
+.grid-item:hover {
+  visibility: visible;
+  opacity: 1;
+}
+
+.apartment-description {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(3, 1fr);
+      justify-content: center;
+      gap: 30px;    
+      width: 600px;
+      height: 600px;
+      margin: 0 auto;
+
+ }
+
+.grid-item {
+      background-color: whitesmoke;
+      padding: 5px;
+      width: 500px;
+      margin: auto;
+      line-height: 2;
+      text-align: center;
+      color: #421b3e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height:100%;
+
+}
+
+
+
+.georges-perec{
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    text-align: center; 
+    padding: 1px; 
+    z-index: 1000; 
+} 
+      
+
+ #button{
+  display: block;
+  margin: 50px auto 0 auto;
+  padding:5px;
+
+ }     
+
+  
